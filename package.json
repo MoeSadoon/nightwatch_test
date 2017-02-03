@@ -1,0 +1,18 @@
+{
+  "name": "nightwatch_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "node_modules/.bin/nightwatch --config nightwatch.conf.BASIC.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.9.12"
+  },
+  "devDependencies": {
+    "selenium-download": "^2.0.9"
+  }
+}

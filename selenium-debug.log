@@ -1,0 +1,45 @@
+15:21:36.175 INFO - Launching a standalone Selenium Server
+15:21:36.195 INFO - Java: Oracle Corporation 25.03-b03
+15:21:36.195 INFO - OS: Linux 4.4.0-21-generic amd64
+15:21:36.202 INFO - v2.53.0, with Core v2.53.0. Built from revision 35ae25b
+15:21:36.241 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform LINUX
+15:21:36.242 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform LINUX
+15:21:36.242 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:21:36.242 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+15:21:36.243 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform LINUX
+15:21:36.243 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+15:21:36.243 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+15:21:36.275 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+15:21:36.275 INFO - Selenium Server is up and running
+15:21:36.438 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+15:21:36.444 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.27.440175 (9bc1d90b8bfa4dd181fbbf769a5eb5e575574320) on port 29110
+Only local connections are allowed.
+15:21:36.962 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Login, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+15:21:36.976 INFO - Executing: [get: http://automationpractice.com/index.php])
+15:21:41.987 INFO - Done: [get: http://automationpractice.com/index.php]
+15:21:41.992 INFO - Executing: [find element: By.cssSelector: .login])
+15:21:42.019 INFO - Done: [find element: By.cssSelector: .login]
+15:21:42.022 INFO - Executing: [click: 0 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: .login]])
+15:21:43.351 INFO - Done: [click: 0 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: .login]]
+15:21:43.354 INFO - Executing: [find element: By.cssSelector: input[name = "email"]])
+15:21:43.374 INFO - Done: [find element: By.cssSelector: input[name = "email"]]
+15:21:43.377 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: input[name = "email"]], [m, o, e, @, t, e, s, t, ., c, o, m]])
+15:21:43.431 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: input[name = "email"]], [m, o, e, @, t, e, s, t, ., c, o, m]]
+15:21:43.434 INFO - Executing: [find element: By.cssSelector: input[name = "passwd"]])
+15:21:43.451 INFO - Done: [find element: By.cssSelector: input[name = "passwd"]]
+15:21:43.454 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: input[name = "passwd"]], [t, e, s, t, t, e, s, t]])
+15:21:43.511 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: input[name = "passwd"]], [t, e, s, t, t, e, s, t]]
+15:21:43.513 INFO - Executing: [find element: By.cssSelector: #SubmitLogin])
+15:21:43.533 INFO - Done: [find element: By.cssSelector: #SubmitLogin]
+15:21:43.535 INFO - Executing: [click: 3 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: #SubmitLogin]])
+15:21:44.710 INFO - Done: [click: 3 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: #SubmitLogin]]
+15:21:44.714 INFO - Executing: [find element: By.cssSelector: .page-heading])
+15:21:44.732 INFO - Done: [find element: By.cssSelector: .page-heading]
+15:21:44.735 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: .page-heading]])
+15:21:44.755 INFO - Done: [get text: 4 [[ChromeDriver: chrome on LINUX (f5ab576b440f065a3da46210361abe77)] -> css selector: .page-heading]]
+15:21:44.758 INFO - Executing: [delete session: 1fb31b3b-c892-4393-9286-5d10bb041eaa])
+15:21:44.827 INFO - Done: [delete session: 1fb31b3b-c892-4393-9286-5d10bb041eaa]
